@@ -46,7 +46,7 @@ const styles = `
   height: 4rem;
   border-radius: 50%;
   opacity: 0.2;
-  position: fixed;
+  position: fixed!important;
   top: 1rem;
   right: 0;
   font-size: 0.7rem;
