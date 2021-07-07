@@ -149,10 +149,6 @@ body {
   max-width: 1200px;
 }
 
-body {
-  height: 100000rem;
-}
-
 /* utilities */
 .center {
   text-align: center;
