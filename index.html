@@ -1,57 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main2.css" type="text/css" />
+    <title>Meals</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/main2.css" type="text/css" />
-  <title>Meals</title>
-</head>
+  <body>
+    <h1 class="header">Meals</h1>
 
-<body>
-  <h1 class="header">Meals</h1>
+    <input
+      oninput="filter()"
+      class="search"
+      type="text"
+      placeholder="search stuff &#128526;"
+    />
 
-  <input oninput="filter()" class="search" type="text" placeholder="search stuff &#128526;">
+    <div class="note">
+      <p class="text center bold">Tuna with yogurt (160cal 46p)</p>
+      <p class="text center">
+        Tuna : 150g (140cal / 45p)
+        <br />
+        Light Yogurt (2%-3% fat): 30g (15 cal / 1p);
+        <br />
+        Salt
+      </p>
+    </div>
 
+    <div class="note">
+      <p class="text center bold">Omelette (325 cal/ 28p)</p>
+      <p class="text center">
+        3 x eggs : 150g (225 cal / 18p)
+        <br />
+        Cheese: 30g (100 cal/ 10p)
+        <br />
+      </p>
+    </div>
 
-
-
-  <div class="note">
-    <p class="text center bold">
-      Tuna with yogurt (160cal 46p)
-    </p>
-    <p class="text center">
-      Tuna : 150g (140cal / 45p)
-      <br>
-      Light Yogurt (2%-3% fat): 30g (15 cal / 1p);
-      <br>
-      Salt
-    </p>
-  </div>
-
-  <div class="note">
-    <p class="text center bold">
-      Omelette (325 cal/ 28p)
-    </p>
-    <p class="text center">
-      3 x eggs : 150g (225 cal / 18p)
-      <br>
-      Cheese: 30g (100 cal/ 10p)
-      <br>
-    </p>
-  </div>
-
-  <!-- template note -->
-  <!-- <div class="note">
+    <!-- template note -->
+    <!-- <div class="note">
     <p class="text center bold">
       Note template Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem, vero.
     </p>
 
   </div> -->
-  <script src="assets/js/main.js"></script>
-</body>
-
+    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/scrollBookmark.js"></script>
+  </body>
 </html>

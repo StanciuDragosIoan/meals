@@ -26,8 +26,8 @@ body {
   margin: auto;
 }
 
- .search{
-  display:block;
+.search {
+  display: block;
   margin: auto;
   margin-top: 2rem;
   width: 20rem;
@@ -38,10 +38,9 @@ body {
   outline: none;
   border: 2px solid #000;
   border-radius: 15px;
- }
+}
 
-
- .code {
+.code {
   background: #000;
   color: #00e000;
   font-size: 2rem;
@@ -52,12 +51,12 @@ body {
   margin: auto;
   margin-bottom: -1rem;
   line-height: 3rem;
-  overflow-y:auto;
+  overflow-y: auto;
 }
 
- .note {
-   /* display:none; */
- }
+.note {
+  /* display:none; */
+}
 .underline {
   text-decoration: underline;
   border: 3px solid #ddd;
@@ -95,21 +94,18 @@ body {
   text-align: center;
 }
 
-.svg-container{
-  background:#fff;
+.svg-container {
+  background: #fff;
 }
 
-.kanji_play_button{
+.kanji_play_button {
   border-radius: 50%;
-  width:2rem;
-  height:2rem;
+  width: 2rem;
+  height: 2rem;
 }
-.kanji_play_button::after{
+.kanji_play_button::after {
   content: ">";
 }
-
- 
- 
 
 /* .f-child:first-child {
  background:red;
@@ -122,8 +118,6 @@ body {
  .f-child:nth-child(3) {
   background:pink;
  } */
-
-
 
 .inputItem,
 .labelItem {
