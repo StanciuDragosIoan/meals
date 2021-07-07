@@ -66,6 +66,12 @@ const styles = `
   cursor: pointer;
 }
 
+@media(max-width: 450px){
+  #bookmarkBtn{
+    left:83vw;
+  }
+}
+
 </style>
 `;
 document.querySelector("#bookmarkStyles").innerHTML = styles;
